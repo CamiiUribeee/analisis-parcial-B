@@ -64,5 +64,12 @@ PRIMER PUNTO:
 ORDEN DE MENOR A MAYOR -> log2n, n, nlog2n, sqrtnlog2n, n^2, n^(3/2), n^0.99, n^2/log2n, 3^n, 2^(n/2)*n
 
 SEGUNDO PUNTO: 
+PARTE 1
 Conclusión de la comparación de funciones:
 En mi caso, al comparar la función 1 que vendría siendo un Insertion, con la función 2 que es una multiplicación cúbica, resulta conveniente utilizar insertion, puesto que es más rápido al pasarle datos, esto no solo es importante es terminos de eficiencia o eficacia, sino también en el consumo de recursos. El cruce entre ambas funciones se da en n igual a 502.
+PARTE 2
+Conclusión de la compración de funciones: 
+Al comparar el insertion con el backtraking resulta mas conveniente usar Insertion. El cruce se da en n igual a 19 
+
+TERCER PUNTO: 
+La complejidad del algoritmo de Isaac para saber cuantos numeros primos hay en in intervalo (a,b), es de O(n) o complejidad lineal
