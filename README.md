@@ -73,3 +73,44 @@ Al comparar el insertion con el backtraking resulta mas conveniente usar Inserti
 
 TERCER PUNTO: 
 La complejidad del algoritmo de Isaac para saber cuantos numeros primos hay en in intervalo (a,b), es de O(n) o complejidad lineal
+
+
+
+
+CORRECCIÓN DEL PARCIAL 
+
+PRIMER PUNTO: 
+
+Ordenar las siguientes funciones de **menor a mayor crecimiento**:
+
+1. log₂n  
+2. √n·log₂n  
+3. n^0.99  
+4. n  
+5. n·log₂n  
+6. n^(3/2)  
+7. n²/log₂n  
+8. n²  
+9. 3ⁿ  
+10. 2^(n/2)·n
+
+Orden de menor a mayor: log₂n < n^0.99 < √n·log₂n < n < n·log₂n < n^(3/2) < n²/log₂n < n² < 2^(n/2)·n < 3ⁿ
+
+
+SEGUNDO PUNTO / PRIMERA PARTE:
+
+Comparación 1: T1(n) vs T3(n). Insertion sort vs Multiplicación cúbica
+
+Conclusiones: El cruce se da aproximadamente en n=502. 
+Para valores mayores, Insertion sort (T1) es más eficiente, esto refleja que los algoritmos con complejidad cuadrática escalan mejor que los cúbicos. Insertion es más eficiente en tiempo y recursos a partir de ese punto.
+
+SEGUNDA PARTE: 
+
+Comparación 2: T1(n) vs T4(n). Insertion sort vs Backtracking 
+
+Conclusiones: El punto de cruce se encuentra en n=19. Backtracking se vuelve ineficiente muy rápido, por tanto, a partir de ese valor, Insertion sort tiene un comportamiento mucho más estable y eficiente en tiempo y recursos.
+
+
+TERCER PUNTO: 
+
+la función esPrimo_T() recorre todos los números desde 2 hasta n, lo que genera una complejidad O(n²) en total (por los dos bucles anidados). 
